@@ -3,9 +3,9 @@
 ## Configuring wireless network
 
 
-File:  /etc/wpa_supplicant/wpa_supplicant.conf
+File:  `/etc/wpa_supplicant/wpa_supplicant.conf`
 
-```
+```conf
 country=DE
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
