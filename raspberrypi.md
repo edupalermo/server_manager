@@ -23,6 +23,6 @@ ExecStart=/usr/sbin/wpa_supplicant -Dwext -u -s -i wlan0 -c /etc/wpa_supplicant/
 
 ### Reload systemd manager configuration and restart wap_supplicant daemon
 ```bash
-# systemctl daemon-reload
-# systemctl restart wpa_supplicant
+systemctl daemon-reload
+systemctl restart wpa_supplicant
 ```
